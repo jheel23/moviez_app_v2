@@ -1,16 +1,22 @@
-# moviez_app
+# 🎬 Movies App
 
-A new Flutter project.
+Welcome to **ZEST**, a Flutter-powered mobile application that allows users to discover the latest movies and TV shows. Leveraging the [TVMaze API](https://www.tvmaze.com/api), this app offers an up-to-date catalog of trending titles, along with a robust search functionality to help you easily find any movie or TV show.
 
-## Getting Started
+## 📱 Built with
 
-This project is a starting point for a Flutter application.
+- **Flutter**: The app is built using Flutter for seamless cross-platform mobile development, ensuring smooth performance on both Android and iOS devices.
+- **TVMaze API**: All movie and TV show data is fetched from the TVMaze API, providing real-time updates on the latest releases.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Latest Movies & TV Shows**: Stay in the loop with the newest releases, fetched dynamically from the TVMaze API.
+- **Searching**: Find any movie or TV show by searching through the vast TVMaze database directly from within the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+To run this app locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/jheel23/moviez_app_v2.git
+   cd moviez_app_v2

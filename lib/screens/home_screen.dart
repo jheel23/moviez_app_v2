@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:moviez_app/screens/search_screen.dart';
 import 'package:moviez_app/widgets/core/trending_movie_widget.dart';
