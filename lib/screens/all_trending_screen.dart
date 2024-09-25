@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moviez_app/API/tmdb_api.dart';
+import 'package:moviez_app/API/tvmaze_api.dart';
 import 'package:moviez_app/model/movie.dart';
 import 'package:moviez_app/screens/movie_details_screen.dart';
 import 'package:moviez_app/widgets/custom/custom_movie_card.dart';

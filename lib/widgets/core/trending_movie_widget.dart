@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moviez_app/API/tmdb_allMovie_api.dart';
-import 'package:moviez_app/API/tmdb_api.dart';
+import 'package:moviez_app/API/tvmaze_allMovie_api.dart';
+import 'package:moviez_app/API/tvmaze_api.dart';
 import 'package:moviez_app/model/movie.dart';
 import 'package:moviez_app/screens/all_movie_tv_screen.dart';
 import 'package:moviez_app/screens/all_trending_screen.dart';

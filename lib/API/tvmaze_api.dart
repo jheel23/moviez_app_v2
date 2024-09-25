@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:moviez_app/model/movie.dart';
 import 'package:http/http.dart' as http;
@@ -24,6 +23,7 @@ class TmdbMovies extends StateNotifier<List<Movie>> {
       if (extractedData.isEmpty) {
         return;
       }
+      movie.clear();
       await for (var element in Stream.fromIterable(extractedData)) {
         movie.add(Movie.fromJson(element['show']));
       }
